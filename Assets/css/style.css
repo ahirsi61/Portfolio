@@ -3,8 +3,8 @@ body {
     font-size: 18px;
     line-height: 25px;
     color: #777;
-    background-color:midnightblue;
-  background-image: 
+    background-color:snow;
+  
   background-size:100px 50px;
   }
   
@@ -114,7 +114,7 @@ body {
   /* sidebar */
   
   .sidebar {
-    float: right;
+    
     width: 100%;
     max-width: 270px;
     padding: 30px;
@@ -155,7 +155,7 @@ body {
   }
   
   .main-section {
-    float: left;
+    
     width: 100%;
     max-width: 650px;
     padding: 30px;
@@ -167,7 +167,7 @@ body {
   /* portfolio page */
   
   .work {
-    position: relative;
+    position: top;
     float: left;
     width: 274px;
     margin: 20px 0 25px;
@@ -199,7 +199,7 @@ body {
   }
   
   .auth-image {
-    float: left;
+    
     width: 200px;
     height: auto;
     margin-top: 10px;
@@ -292,6 +292,7 @@ body {
     }
   }
   
-  
-  
+  .flex-row{
+    display: flex; flex-direction: row;
+  }
   
